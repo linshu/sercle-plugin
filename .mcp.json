@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sercle": {
+      "type": "http",
+      "url": "https://sercle.ai/api/mcp"
+    }
+  }
+}

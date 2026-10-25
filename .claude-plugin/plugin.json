@@ -1,0 +1,17 @@
+{
+  "name": "sercle",
+  "displayName": "Sercle",
+  "version": "1.0.0",
+  "description": "Work with your Sercle account from Claude: readiness and what it rests on, company registration, and legal documents grounded in your own state's law.",
+  "author": {
+    "name": "Sercle",
+    "url": "https://sercle.ai"
+  },
+  "homepage": "https://sercle.ai",
+  "repository": "https://github.com/linshu/sercle-plugin",
+  "license": "MIT",
+  "keywords": ["startup", "legal", "incorporation", "founders", "readiness"],
+  "documentationUrl": "https://sercle.ai/en/docs/claude",
+  "supportUrl": "https://sercle.ai/en/docs/claude",
+  "privacyPolicyUrl": "https://sercle.ai/en/privacy"
+}
