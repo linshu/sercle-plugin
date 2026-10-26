@@ -10,6 +10,17 @@ The skills carry the judgement — when to check what Sercle already knows
 before asking, when to leave a blank rather than invent a number, and how
 to report a readiness figure without misleading anyone.
 
+## Install
+
+The connector is listed in Claude's directory:
+
+**[claude.ai/directory/sercle-ai](https://claude.ai/directory/sercle-ai)**
+
+Adding it from there gives you the thirteen tools. This plugin adds the
+four skills that tell Claude when to use them — which blanks to leave
+blank, when to check what Sercle already knows before asking, and how to
+report a readiness score without misleading anyone.
+
 ## Documentation
 
 [sercle.ai/en/docs/claude](https://sercle.ai/en/docs/claude)
