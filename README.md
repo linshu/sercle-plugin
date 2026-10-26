@@ -21,6 +21,25 @@ four skills that tell Claude when to use them — which blanks to leave
 blank, when to check what Sercle already knows before asking, and how to
 report a readiness score without misleading anyone.
 
+### Claude Code
+
+```bash
+/plugin install sercle --marketplace linshu/sercle-plugin
+```
+
+Claude Code is the one surface where the directory listing does not work:
+Sercle's authorization server matches redirect URIs exactly and supports
+no dynamic client registration, so connecting from the directory fails
+with `redirect_uri_mismatch`. Install the plugin with the line above, and
+add the connector by hand:
+
+```bash
+claude mcp add --transport http \
+  --client-id efcca6c9-861d-44d3-80c0-e73f1cb3c2a7 \
+  --callback-port 1455 \
+  sercle https://sercle.ai/api/mcp
+```
+
 ## Documentation
 
 [sercle.ai/en/docs/claude](https://sercle.ai/en/docs/claude)

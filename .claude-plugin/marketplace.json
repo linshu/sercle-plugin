@@ -1,0 +1,15 @@
+{
+  "name": "sercle",
+  "description": "Sercle's plugin for Claude: skills for incorporation, legal documents, filing deadlines and team readiness, paired with Sercle's MCP connector.",
+  "owner": {
+    "name": "Sercle",
+    "url": "https://sercle.ai"
+  },
+  "plugins": [
+    {
+      "name": "sercle",
+      "source": ".",
+      "description": "Work with your Sercle account from Claude: readiness and what it rests on, company registration, and legal documents grounded in your own state's law."
+    }
+  ]
+}
